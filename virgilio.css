@@ -1,0 +1,57 @@
+@font-face{
+  font-family: "Lobster";
+  src:url(../Lobster-Regular.ttf);
+}
+h1 {
+	text-transform: uppercase;
+  font-family: 'Ribeye Marrow', cursive;
+  font-size: 3rem;
+  letter-spacing: 1.5rem;
+  text-align: center;
+}
+body{
+  font-size: medium;
+  margin-left: 15%;
+  margin-right: 15%;
+  background: rgb(203,172,77);
+  /*background: #CBAC4D;
+  background: rgb(79%, 67%, 30%);
+  background: hsl(45, 54%, 54%);
+  background: hsla(45, 54%, 54%, 0.5);*/
+
+
+}
+.vida{
+  font-family: Roboto, Lato, Oswald, sans-serif;
+  text-align: justify;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.castellano{
+  color: white;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  font-family: "Just Another Hand", cursive;
+  text-align: right;
+  border: 1px solid red;
+}
+.strong1{
+  font-size: 2em;
+}
+.strong2{
+  font-size: 2rem;
+}
+.latin{
+  font-family: Lobster,cursive;
+  font-size: 2.5rem;
+}
+p.vida+.latin mark{
+    background-color: green;
+
+}
+mark{
+  background-color: red;
+}
+
+
+
